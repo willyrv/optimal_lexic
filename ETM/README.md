@@ -1,3 +1,15 @@
+This is a modified version of the original ETM to fit the asrs dataset, this implementation is of 100 000 flight report.
+First, run the data_asrs.py fileas follows :
+```
+python data_asrs.py --ndocs 1000
+```
+This will generate the folder 'asrs' which needs to be moved into the data folder. 
+Then run the following command to generate the model:
+
+```
+python main.py --mode train --dataset asrs --data_path data/20asrs --emb_path PATH_TO_EMBEDDINGS --num_topics 15 --train_embeddings 0 --epochs 150
+```
+
 # ETM
 
 This is code that accompanies the paper titled "Topic Modeling in Embedding Spaces" by Adji B. Dieng, Francisco J. R. Ruiz, and David M. Blei. (Arxiv link: https://arxiv.org/abs/1907.04907)
