@@ -1,0 +1,69 @@
+Visualize topics...
+Topic 0: ['approach', 'runway', 'il', 'clear', 'twr', 'visual', 'loc', 'mi', 'final']
+Topic 1: ['ft', 'tfc', 'climb', 'tcasii', 'acft', 'descend', 'atc', 'oclock', 'altitude']
+Topic 2: ['degree', 'hdg', 'departure', 'clrnc', 'turn', 'controller', 'vor', 'asked', 'clear']
+Topic 3: ['ft', 'altitude', 'fl', 'dscnt', 'climb', 'capt', 'atc', 'descend', 'fo']
+Topic 4: ['rptr', 'acft', 'conversation', 'revealed', 'callback', 'info', 'maint', 'faa', 'problem']
+Topic 5: ['vfr', 'flt', 'ifr', 'wx', 'approach', 'airspace', 'airport', 'area', 'mi']
+Topic 6: ['gear', 'acft', 'lndg', 'runway', 'flap', 'nose', 'light', 'knot', 'normal']
+Topic 7: ['acft', 'acr', 'controller', 'fl', 'radar', 'tfc', 'sector', 'frequency', 'mi']
+Topic 8: ['pax', 'acft', 'flt', 'attendant', 'capt', 'door', 'gate', 'crew', 'seat']
+Topic 9: ['twr', 'runway', 'acft', 'tfc', 'sma', 'pattern', 'final', 'downwind', 'radio']
+Topic 10: ['airport', 'area', 'pilot', 'flt', 'student', 'field', 'plane', 'lndg', 'helicopter']
+Topic 11: ['eng', 'fuel', 'emergency', 'lndg', 'problem', 'pwr', 'normal', 'light', 'tank']
+Topic 12: ['pilot', 'time', 'problem', 'flying', 'capt', 'day', 'factor', 'didnt', 'cockpit']
+Topic 13: ['flt', 'fuel', 'hour', 'time', 'crew', 'day', 'minute', 'company', 'capt']
+Topic 14: ['runway', 'twr', 'txwy', 'taxi', 'clear', 'takeoff', 'hold', 'ground', 'short']
+####################################################################################################
+Visualize word embeddings by using output embedding matrix
+vectors:  (14689, 300)
+query:  (300,)
+word: snow .. neighbors: ['snow', 'edge', 'reverse', 'surface', 'rain', 'ctrline', 'blowing', 'pavement', 'displaced', 'braking', 'nose', 'wet', 'gusting', 'raining', 'rwy', 'marker', 'rollout', 'exited', 'nosewheel', 'shear']
+vectors:  (14689, 300)
+query:  (300,)
+word: flt .. neighbors: ['flt', 'time', 'made', 'back', 'called', 'btwn', 'due', 'prior', 'check', 'asked', 'put', 'incident', 'thought', 'point', 'return', 'looked', 'minute', 'told', 'immediately', 'occurred']
+vectors:  (14689, 300)
+query:  (300,)
+word: light .. neighbors: ['light', 'lndg', 'landed', 'side', 'appeared', 'visible', 'ground', 'coming', 'continued', 'elected', 'land', 'closed', 'began', 'started', 'uneventful', 'noticed', 'remained', 'airport', 'proceeded', 'slightly']
+vectors:  (14689, 300)
+query:  (300,)
+word: leak .. neighbors: ['leak', 'plug', 'generator', 'pack', 'leaking', 'pressurization', 'valve', 'apu', 'oil', 'tank', 'breaker', 'conditioning', 'cap', 'smoke', 'circuit', 'tailpipe', 'inlet', 'cfr', 'battery', 'fire']
+vectors:  (14689, 300)
+query:  (300,)
+word: gpws .. neighbors: ['gpws', 'whoop', 'sighted', 'ra', 'clb', 'tcasii', 'acquired', 'dsnd', 'ta', 'apch', 'tcas', 'intruding', 'oclock', 'petis', 'coalt', 'curacao', 'intruder', 'sighting', 'imc', 'visual']
+vectors:  (14689, 300)
+query:  (300,)
+word: turbulence .. neighbors: ['turbulence', 'chop', 'moderate', 'encountering', 'turbulent', 'penetrate', 'precipitation', 'tstm', 'airspeed', 'updraft', 'gndspd', 'standiford', 'turb', 'wilkes', 'wilkesbarre', 'descended', 'mb', 'shower', 'lag', 'punched']
+vectors:  (14689, 300)
+query:  (300,)
+word: pressurization .. neighbors: ['pressurization', 'pack', 'flame', 'oil', 'apu', 'breaker', 'pump', 'fire', 'tank', 'valve', 'smoke', 'restart', 'bleed', 'psi', 'egt', 'restarted', 'cap', 'conditioning', 'boost', 'leak']
+vectors:  (14689, 300)
+query:  (300,)
+word: collision .. neighbors: ['collision', 'evasive', 'twin', 'cessna', 'collided', 'king', 'pas', 'midair', 'oclock', 'sma', 'opposite', 'spotted', 'tfc', 'headon', 'jet', 'opposing', 'advisory', 'ta', 'separation', 'conflicting']
+vectors:  (14689, 300)
+query:  (300,)
+word: smoke .. neighbors: ['smoke', 'apu', 'fire', 'conditioning', 'pressurization', 'smell', 'cabin', 'mask', 'pack', 'shutdown', 'extinguisher', 'bottle', 'bus', 'pressurize', 'flame', 'donned', 'oil', 'intake', 'discharged', 'airconditioning']
+vectors:  (14689, 300)
+query:  (300,)
+word: vfr .. neighbors: ['vfr', 'ifr', 'advisory', 'cloud', 'squawking', 'arsa', 'beneath', 'haze', 'airspace', 'layer', 'bur', 'imc', 'spotted', 'xponder', 'sky', 'oclock', 'sight', 'avoidance', 'tca', 'sighting']
+vectors:  (14689, 300)
+query:  (300,)
+word: twr .. neighbors: ['twr', 'runway', 'final', 'airport', 'active', 'land', 'landed', 'visibility', 'twrs', 'gar', 'instructed', 'intention', 'ahead', 'abeam', 'atis', 'contacted', 'approach', 'front', 'clear', 'end']
+vectors:  (14689, 300)
+query:  (300,)
+word: approach .. neighbors: ['approach', 'mi', 'path', 'clear', 'controller', 'ft', 'rpted', 'ahead', 'descend', 'rapidly', 'visibility', 'frequency', 'unable', 'approx', 'low', 'contact', 'continued', 'established', 'twr', 'msl']
+vectors:  (14689, 300)
+query:  (300,)
+word: medical .. neighbors: ['medical', 'representative', 'walked', 'security', 'mr', 'doctor', 'alcohol', 'walk', 'auths', 'storage', 'fbi', 'credential', 'container', 'inspector', 'bomb', 'plastic', 'tear', 'driver', 'hazmat', 'net']
+vectors:  (14689, 300)
+query:  (300,)
+word: failure .. neighbors: ['failure', 'failed', 'switch', 'loss', 'sys', 'system', 'problem', 'attempt', 'avail', 'procedure', 'properly', 'wo', 'lost', 'worked', 'malfunction', 'intermittent', 'fail', 'instrument', 'fault', 'confign']
+vectors:  (14689, 300)
+query:  (300,)
+word: comply .. neighbors: ['comply', 'questioned', 'inquired', 'comment', 'assigned', 'understood', 'supposed', 'stating', 'mention', 'word', 'conflict', 'questioning', 'repeated', 'mentioned', 'mandatory', 'number', 'stated', 'tape', 'queried', 'question']
+vectors:  (14689, 300)
+query:  (300,)
+word: door .. neighbors: ['door', 'attendant', 'aft', 'deplaned', 'deplaning', 'walkaround', 'latch', 'seated', 'exterior', 'baggage', 'fa', 'belt', 'stair', 'cart', 'galley', 'evac', 'jetway', 'tug', 'lavatory', 'walk']
+vectors:  (14689, 300)
+query:  (300,)
+word: tire .. neighbors: ['tire', 'rudder', 'retracted', 'steering', 'gust', 'slat', 'nosewheel', 'retract', 'collapsed', 'gear', 'slid', 'flap', 'bounced', 'bent', 'wheel', 'skidded', 'retraction', 'locked', 'shaker', 'collapse']
