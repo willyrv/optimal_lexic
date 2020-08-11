@@ -1,5 +1,7 @@
 This is a modified version of the original ETM to fit the asrs dataset, this implementation is of 100 000 flight report.
 
+The cvs file containing the data 'ASRS_data.csv' should be added to the 'scripts' file.
+
 First, run the data_asrs.py fileas follows :
 ```
 python data_asrs.py --ndocs 1000
